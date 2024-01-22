@@ -11,7 +11,7 @@ const Contact = () => {
                 </div>
 
                 <div>
-                    <span className="flex items-center"><i class='bx bxs-map text-red-600 text-lg'></i> #344 Purok 5, Masagana, Pandi, Bulacan</span>
+                    <span className="flex items-center"><i className='bx bxs-map text-red-600 text-lg'></i> #344 Purok 5, Masagana, Pandi, Bulacan</span>
                 </div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d481.9823692967226!2d120.9373682359625!3d14.88916327107395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1705633654553!5m2!1sen!2sph"

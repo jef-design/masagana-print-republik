@@ -17,7 +17,7 @@ const Header = () => {
                         </a>
 
                         <a href="mailto:MaganaPR@gmail.com">
-                            <i class="bx bxl-gmail text-red-600"></i>
+                            <i className="bx bxl-gmail text-red-600"></i>
                         </a>
                     </div>
                 </div>

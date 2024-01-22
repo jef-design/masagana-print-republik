@@ -29,7 +29,7 @@ const Footer = () => {
                         </a>
 
                         <a className="flex gap-2 items-center" href="mailto:MasaganaPR@gmail.com">
-                            <i class="bx bxl-gmail text-red-600 bg-white"></i>
+                            <i className="bx bxl-gmail text-red-600 bg-white"></i>
                             <span>MasaganaPR@gmail.com</span>
                         </a>
                     </div>
