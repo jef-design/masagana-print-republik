@@ -1,21 +1,32 @@
-import Contact from './layouts/Contact'
-import Footer from './layouts/Footer'
-import Header from './layouts/Header'
-import Hero from './layouts/Hero'
-import Services from './layouts/Services'
+import {createBrowserRouter, RouterProvider, Navigate} from "react-router-dom";
+import Home from "./pages/Home";
+import LookBook from "./pages/LookBook";
+import Shop from "./pages/Shop"
+import HomeScreen from "./pages/HomeScreen";
 
 function App() {
-  return (
-    <>
-      <main className='max-w-[1280px] mx-auto px-3'>
-     <Header/>
-     <Hero/>
-     <Services/>
-    <Contact/>
-    </main>
-    <Footer/>
-    </>
-  )
+    const router = createBrowserRouter([
+        {
+            path: "/",
+            element: <Home />,
+            children: [
+              {
+                index: true,
+                element: <HomeScreen/>
+              },
+              {
+                path: '/shop',
+                element: <Shop/>
+              },
+              {
+                path: "/lookbook",
+                element: <LookBook />,
+            },
+            ]
+        },
+       
+    ]);
+    return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;

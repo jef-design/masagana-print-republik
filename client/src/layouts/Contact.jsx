@@ -4,8 +4,8 @@ const Contact = () => {
   return (
     <div className="max-w-[1280px] mx-auto" id='contact'>
             <div className="my-5">
-                <h2 className="text-3xl uppercase my-2">Contact</h2>
-                <div className="my-7">
+                <h2 className="text-3xl uppercase my-2 font-[500]">Contact</h2>
+                <div className="my-7 flex flex-col gap-3">
                     <p>Telephone no. (044) 8120040</p>
                     <p>Mobile no. 09393629966</p>
                 </div>

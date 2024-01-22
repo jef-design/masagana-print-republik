@@ -7,7 +7,7 @@ const Footer = () => {
         <>
         
             <div className=" mt-7 bg-red-600 text-white p-10">
-                <div className="max-w-[1280px] mx-auto px-3 flex justify-between">
+                <div className="max-w-[1280px] mx-auto px-3 flex justify-between gap-4 mobile:flex-col mobile:py-4">
                     <div>
                     <h2 className="text-2xl mb-2 uppercase">Services</h2>
                     <ul>
